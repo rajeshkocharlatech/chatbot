@@ -11,7 +11,7 @@ SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY")
 
 if not GOOGLE_API_KEY or not SERPAPI_API_KEY:
     message = (
-        "Missing environment variables. Please add GOOGLE_API_KEY and SERPAPI_API_KEY to a .env file "
+        ".Missing environment variables. Please add GOOGLE_API_KEY and SERPAPI_API_KEY to a .env file "
         "or export them in your environment."
     )
     st.error(message)
