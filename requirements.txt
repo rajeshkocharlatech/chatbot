@@ -1,5 +1,6 @@
-streamlit
-openai
-langchain==0.0.350
 python-dotenv
+streamlit
+langchain==0.0.350
 langchain-google-genai
+langchain-community
+networkx
